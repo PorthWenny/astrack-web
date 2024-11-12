@@ -20,8 +20,8 @@ function Reserve() {
                 <div className="reservation" key={reservation.id}>
                   <img src={facility.img} alt={facility.title} />
                   <div className="reservationInfo">
-                    <h2>{facility.title}</h2>
-                    <h3>{reservation.event_name}</h3>
+                    <h2>{reservation.event_name}</h2>
+                    <h3>{facility.title}</h3>
                     <p>
                       <strong>Date:</strong> {reservation.date}
                     </p>

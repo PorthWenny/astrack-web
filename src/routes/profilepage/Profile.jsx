@@ -1,4 +1,4 @@
-import List from "../../components/list/List";
+import Favorites from "../../components/favorites/Favorites";
 import Reserve from "../../components/reserve/Reserve";
 import "./profile.scss";
 
@@ -30,7 +30,7 @@ function Profile() {
             <h1>Favorites</h1>
             <button>Add Favorites</button>
           </div>
-          <List />
+          <Favorites />
         </div>
       </div>
       <div className="reserveContainer">

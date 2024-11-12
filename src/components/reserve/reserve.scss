@@ -1,3 +1,5 @@
+@use '../../responsive.scss' as *;
+
 .Reserve {
     .reserveList {
       max-width: 800px;
@@ -23,6 +25,10 @@
           height: 110px;
           object-fit: cover;
           border-radius: 8px;
+
+          @include sm {
+            display: none;
+        }
         }
   
         .reservationInfo {

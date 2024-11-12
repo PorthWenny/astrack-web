@@ -32,7 +32,7 @@ function Navbar() {
               src="https://images.pexels.com/photos/4016579/pexels-photo-4016579.jpeg"
               alt="_"
             />
-            <span>John Doe</span>
+            <span className="name">John Doe</span>
             <Link to="/profile" className="profile">
               <div className="notif">3</div>
               <span>Profile</span>
