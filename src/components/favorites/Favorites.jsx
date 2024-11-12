@@ -1,5 +1,5 @@
 import Card from "../card/Card";
-import "./list.scss";
+import "./favorites.scss";
 import { facilData } from "../../lib/demodata";
 
 function Favorites() {
